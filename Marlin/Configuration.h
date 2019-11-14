@@ -74,7 +74,7 @@
 // User-specified version info of this build to display in [Pronterface, etc] terminal window during
 // startup. Implementation of an idea by Prof Braino to inform user that any changes made to this
 // build by the user have been successfully uploaded into firmware.
-#define STRING_CONFIG_H_AUTHOR "(Marlin 1.1.20180522, John Petrocik)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(Marlin 1.1.20191114, John Petrocik)" // Who made the changes.
 #define SHOW_BOOTSCREEN
 #define STRING_SPLASH_LINE1 SHORT_BUILD_VERSION // will be shown during bootup in line 1
 #define STRING_SPLASH_LINE2 WEBSITE_URL         // will be shown during bootup in line 2
@@ -535,8 +535,9 @@
   * 797 10% Improved rippling, squares surface full coverage, slight line detection
   * 781 12% less, less rippling but no signifacant
   * 757 15% less, weak layer bonds
+  * 741 less roughness on top layer surfaces
   */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 797 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 741 }
 
 /**
  * Default Max Feed Rate (mm/s)
