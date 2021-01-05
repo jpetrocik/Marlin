@@ -11,7 +11,7 @@ A monumental amount of talent and effort goes into Marlin production, and thanks
 - See the [Releases](https://github.com/MarlinFirmware/Marlin/releases) page for Release Notes on all current and previous versions of Marlin.
 - Check out the [RepRap.org Marlin Page](http://reprap.org/wiki/Marlin) for an overview of Marlin and its role in the RepRap project.
 
-This Release branch contains the latest tagged version of Marlin (currently 1.1.6 – October 2017).
+## Marlin 1.1.x
 
 The 1.1.x branch is home to all tagged releases of Marlin 1.1.
 
