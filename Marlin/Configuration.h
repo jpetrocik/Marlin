@@ -396,9 +396,9 @@
 
   // Auto Tuning Results, 
   // M303 E0 S195
-  #define DEFAULT_Kp 37.80
-  #define DEFAULT_Ki 3.55
-  #define DEFAULT_Kd 100.63
+  #define DEFAULT_Kp 31.52
+  #define DEFAULT_Ki 2.79
+  #define DEFAULT_Kd 89.07  
   
 #endif // PIDTEMP
 
